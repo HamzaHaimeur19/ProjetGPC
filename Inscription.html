@@ -1,0 +1,23 @@
+<html>
+<head>
+<meta charset="UTF-8"/>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+<title>Inscription</title>
+</head>
+<body>
+	<div id="container">
+		<h2>Formulaire d'inscription</h2>
+		<p>(Veuillez le remplir!)</p>
+		<form action="traitement.php" method="post">
+		  <input type="text" name="nom" id="nom" placeholder="Entrer votre nom" required>
+		  <input type="text" name="prenom" id="prenom" placeholder="Entrer votre prenom" required>
+		  <input type="email" name="email" id="email"  placeholder="Entrer votre email" required>
+		  <input type="date" name="date_naissance" id="date_naissance" placeholder="Entrer votre date de naissance" required>
+		  <input type="password" name="mdp" id="mdp" placeholder="Entrer votre mot de passe" required>
+			<br>
+		  <button name="auth">S'inscrire</button><br>
+		  <a style="color:white; font-size: 18px;" href="Login.php">Vous avez déja un compte? accéder à l'authentification</a>
+		</form>
+	  </div>
+	  <body>
+</html>
